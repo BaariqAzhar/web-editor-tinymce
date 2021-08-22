@@ -1,0 +1,122 @@
+.title {
+  size: 20px;
+  margin-bottom: 18px;
+}
+.description {
+  size: 16px;
+  margin-top: 0px;
+  margin-bottom: 44px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+}
+
+.gridItem1 {
+  margin-left: 216px;
+  margin-top: 150px;
+}
+.gridItem2 {
+  margin-top: 130px;
+}
+.gridContainter2 {
+  display: grid;
+  justify-content: center;
+}
+.containerPile {
+  position: relative;
+}
+.textFrame {
+  position: absolute;
+  top: 100px;
+  bottom: 100px;
+  left: 42px;
+  right: 35px;
+  max-width: 264px;
+  max-height: 460px;
+  overflow: auto;
+}
+
+.collapsible {
+  background-color: #efefef;
+  color: black;
+  cursor: pointer;
+  /* width: 544px; */
+  width: 100%;
+  height: 47.18px;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  margin-top: 16.82px;
+}
+
+.container-grid {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "textButton imgButton";
+}
+.imgButton {
+  justify-self: end;
+  align-self: center;
+  grid-area: imgButton;
+  padding-right: 16.87px;
+}
+.textButton {
+  justify-self: start;
+  align-self: center;
+  grid-area: textButton;
+  font-size: 16px;
+  padding-left: 42.16px;
+  font-weight: bold;
+}
+
+.buttonPublish {
+  background-color: #418dcb;
+  color: white;
+  cursor: pointer;
+  width: 131px;
+  height: 40px;
+  border: none;
+  text-align: left;
+  outline: none;
+  margin-top: 39px;
+}
+.active,
+.buttonPublish:hover {
+  background-color: rgb(160, 160, 160);
+}
+.containerGridPublish {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "textButton imgButton";
+}
+.imgButtonPublish {
+  justify-self: end;
+  align-self: center;
+  grid-area: imgButton;
+  padding-right: 19px;
+}
+.textButtonPublish {
+  justify-self: start;
+  align-self: center;
+  grid-area: textButton;
+  font-size: 16px;
+  padding-left: 16px;
+}

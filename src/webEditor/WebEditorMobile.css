@@ -1,0 +1,17 @@
+.background {
+  height: 100vh;
+  background-color: #d6ecf8;
+  position: relative;
+}
+.background,
+p {
+  margin-top: 0px;
+}
+.frame {
+  position: absolute;
+  background-color: white;
+  margin: 69px 19px 207px 20px;
+  min-height: 536px;
+  padding: 39.31px 13.12px 10px 15.25px;
+  border-radius: 25px;
+}
